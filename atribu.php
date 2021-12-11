@@ -18,10 +18,6 @@
     echo "Este é o proximo ano: " . ++$anoatual;
     $anoatual++;
     echo "</br>dois anos depois: $anoatual";
-
-
-
-
     ?>
   </div>
 </body>
