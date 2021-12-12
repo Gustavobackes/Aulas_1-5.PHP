@@ -20,11 +20,11 @@ $n1 = $_GET["a"];
     //Igual & Identico
     $a = 3;
     $b = "3";
-    $r = ($a == $b) ? "sim" : "não"; //O igual == não considera o tipo
+    $r = ($a == $b) ? "sim" : "não"; //O igual "==" não considera o tipo
     echo "<br/>A variavel A é igual a B? $r";
     $a = 3;
     $b = "3";
-    $r = ($a === $b) ? "sim" : "não"; //O identico === considera o tipo
+    $r = ($a === $b) ? "sim" : "não"; //O identico "===" considera o tipo
     echo "<br>A variavel A é igual a B? $r";
     ?>
   </div>
