@@ -10,6 +10,7 @@
 <body>
   <div>
     <?php
+    //Recebe os atrobitos "a" e "b" através da URL
     $n1 = $_GET["a"];
     $n2 = $_GET["b"];
     $m = ($n1 + $n2) / 2;
