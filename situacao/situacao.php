@@ -10,7 +10,7 @@
 <body>
   <div>
     <?php
-    $n1 = $_GET["n"];
+    $n1 = $_GET["n"]; //recebe os valores da URL
     $n2 = $_GET["m"];
     $m = ($n1 + $n2) / 2;
     echo "As notas 1 e 2 são repectivamente: $n1 e $n2";
