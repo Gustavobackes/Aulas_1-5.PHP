@@ -29,14 +29,13 @@
     $b += 10;
     echo "<br>A vale $a";
     echo "<br/>B vale 10 + a = $b </br>";
-
+    
+    //Variaveis de variaveis
     echo "--------------<br/>";
-
     $x = "hello";
     $$x = "world";
     echo "$x ${$x}";
-
-
+    //Retorna na tela "hello world"
     ?>
   </div>
 </body>
